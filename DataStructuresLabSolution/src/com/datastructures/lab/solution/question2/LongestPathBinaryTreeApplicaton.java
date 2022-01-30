@@ -7,10 +7,6 @@ import java.util.Scanner;
 
 public class LongestPathBinaryTreeApplicaton {
 
-	static int VALUE;
-	static Scanner INPUT_SCAN = new Scanner(System.in);
-	Deque<Node> QUEUE = new LinkedList<Node>();
-
 	private static class Node {
 		public Node left, right;
 		public int key;
